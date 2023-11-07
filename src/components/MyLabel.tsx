@@ -1,6 +1,6 @@
 import './MyLabel.css'
 
-interface Props {
+export interface Props {
   /**
    * Text to display
    */
@@ -21,7 +21,6 @@ interface Props {
    * Font color
    */
   fontColor?: string;
-
 }
 
 export const MyLabel = ({
